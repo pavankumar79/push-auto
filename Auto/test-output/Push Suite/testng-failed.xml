@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Push Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Auto(failed)">
+    <parameter name="Uname" value="pavan.konathala@nytimes.com"/>
+    <parameter name="Pswd" value="September@929420"/>
+    <parameter name="url" value="https://scoop.stg.nyt.net/ui/console/app/dashboard/standard"/>
+    <classes>
+      <class name="Push.Login">
+        <methods>
+          <include name="Sanity" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Push.Login -->
+    </classes>
+  </test> <!-- Auto(failed) -->
+</suite> <!-- Failed suite [Push Suite] -->

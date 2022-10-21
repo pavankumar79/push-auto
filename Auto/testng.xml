@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Push Suite">
+
+  <test name="Auto">
+  
+  <parameter name="url" value="https://scoop.stg.nyt.net/ui/console/app/dashboard/standard"/>
+  <parameter name="Uname" value="pavan.konathala@nytimes.com"/>
+  <parameter name ="Pswd" value="September@929420"/>
+  
+<classes> 
+
+ <class name="Push.Login">
+ <methods> <include name="Sanity"/></methods>
+ </class>
+
+</classes>
+  
+  </test>
+  
+
+</suite> <!-- Suite -->
