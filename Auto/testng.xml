@@ -5,8 +5,8 @@
   <test name="Auto">
   
   <parameter name="url" value="https://scoop.stg.nyt.net/ui/console/app/dashboard/standard"/>
-  <parameter name="Uname" value="pavan.konathala@nytimes.com"/>
-  <parameter name ="Pswd" value="give your password"/>
+  <parameter name="Uname" value="provide user name"/>
+  <parameter name ="Pswd" value="provide password"/>
   
 <classes> 
 
